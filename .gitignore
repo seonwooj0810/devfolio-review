@@ -1,0 +1,8 @@
+# 로컬 Claude Code 설정(머신별 경로와 권한)
+.claude/settings.local.json
+
+# 자동 생성된 스킬 캐시(설치 시 SKILL.md에서 복사됨)
+.claude/skills/
+
+# 생성된 리뷰 보고서
+*.html
