@@ -53,3 +53,7 @@ devfolio-review/
 - 스킬 본문은 `skills/devfolio-review/SKILL.md`이고, `plugin.json`이 `./skills/`를 가리킵니다.
 - 심각도 표시(🔴🟡🟢)를 일관되게 씁니다. 평가 차원을 추가하면 Step 2 표에 먼저 넣습니다.
 - 프런트매터 `description`이 자동 트리거를 정하므로 엔지니어 포트폴리오에 한정해 구체적으로 유지합니다.
+
+## 라이선스
+
+MIT. 자세한 내용은 [LICENSE](LICENSE)를 참고하세요.

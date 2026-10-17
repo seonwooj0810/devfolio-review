@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "엔지니어 포트폴리오 리뷰 스킬",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "devfolio-review",
       "source": "./",
       "description": "채용 담당자 관점에서 백엔드 엔지니어의 포트폴리오를 리뷰합니다. 글, 구조, 포지셔닝, 근거, 사례, 링크, 필수 정보, 신뢰 신호 전반에 걸쳐 심각도 코드가 붙은 보고서를 냅니다.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "seonwooj0810"
       },
