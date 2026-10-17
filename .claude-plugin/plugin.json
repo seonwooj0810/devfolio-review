@@ -1,10 +1,13 @@
 {
   "name": "devfolio-review",
   "description": "채용 담당자 관점의 백엔드/소프트웨어 엔지니어 포트폴리오 리뷰. 심각도 코드가 붙은 보고서를 내며, 리뷰만 하고 포트폴리오는 절대 수정하지 않습니다.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
-    "name": "seonwooj0810"
+    "name": "seonwooj0810",
+    "url": "https://github.com/seonwooj0810"
   },
+  "homepage": "https://github.com/seonwooj0810/devfolio-review#readme",
+  "repository": "https://github.com/seonwooj0810/devfolio-review",
   "license": "MIT",
   "keywords": [
     "portfolio",

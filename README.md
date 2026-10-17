@@ -1,6 +1,24 @@
 # devfolio-review
 
+[![License](https://img.shields.io/github/license/seonwooj0810/devfolio-review)](LICENSE) [![Version](https://img.shields.io/github/v/tag/seonwooj0810/devfolio-review?label=version)](https://github.com/seonwooj0810/devfolio-review/tags) ![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-D97757)
+
 백엔드/소프트웨어 엔지니어의 포트폴리오를 채용 담당자 관점에서 점검하는 Claude Code 스킬입니다. 심각도 코드가 붙은 문제 목록과 우선순위별 수정안을 보고서로 내며, **점검만 하고 포트폴리오 파일은 절대 수정하지 않습니다.**
+
+> **English:** devfolio-review is a Claude Code skill that reviews a backend/software engineer's portfolio the way a hiring manager would. It reports severity-coded issues (🔴 critical / 🟡 major / 🟢 minor), a gap table against a job description, a level assessment and a prioritized fix plan. Review only — it never edits your files. Output language is Korean.
+>
+> `claude plugin marketplace add seonwooj0810/devfolio-review` → `claude plugin install devfolio-review@devfolio-review`
+
+## 예시 출력
+
+가상 포트폴리오로 실행한 보고서의 일부입니다.
+
+| # | 심각도 | 위치 | 문제 | 수정안 |
+|---|---|---|---|---|
+| 1 | 🔴 | 소개 | "열정적이고 책임감 있는…" 문장에 누구·무엇·강점·영향이 모두 없음 | 직무·도메인·대표 성과를 한 줄로 재작성 |
+| 2 | 🔴 | 프로젝트 1 | "성능을 크게 개선했습니다"에 before/after 수치가 없음 | 지표, 이전 값, 이후 값, 측정 방법을 적을 것 |
+| 3 | 🟡 | 프로젝트 2 | 기능이 아니라 기술 이름만 나열됨 | 왜 그 구조였는지, 어떻게 검증했는지 서술 |
+
+---
 
 ## 설치
 
@@ -53,6 +71,10 @@ devfolio-review/
 - 스킬 본문은 `skills/devfolio-review/SKILL.md`이고, `plugin.json`이 `./skills/`를 가리킵니다.
 - 심각도 표시(🔴🟡🟢)를 일관되게 씁니다. 평가 차원을 추가하면 Step 2 표에 먼저 넣습니다.
 - 프런트매터 `description`이 자동 트리거를 정하므로 엔지니어 포트폴리오에 한정해 구체적으로 유지합니다.
+
+## 기여와 문의
+
+버그나 개선 제안은 [이슈](https://github.com/seonwooj0810/devfolio-review/issues)로 남겨 주세요.
 
 ## 라이선스
 
