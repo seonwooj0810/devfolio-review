@@ -66,6 +66,12 @@ devfolio-review/
 └── README.md
 ```
 
+## 데이터 처리
+
+사용자가 넘긴 포트폴리오(PDF, 로컬 HTML, URL)를 점검 목적으로만 읽습니다. URL이 주어지면 Claude의 기본 가져오기 도구로 그 주소와
+포트폴리오 안의 링크만 확인합니다. 데이터를 저장하거나 작성자·제3자에게 전송하지 않고, 보고서는 대화 응답으로만 출력합니다.
+자세한 내용은 [PRIVACY.md](PRIVACY.md)를 참고하세요.
+
 ## 유지보수 메모
 
 - 스킬 본문은 `skills/devfolio-review/SKILL.md`이고, `plugin.json`이 `./skills/`를 가리킵니다.

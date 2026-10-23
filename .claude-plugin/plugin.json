@@ -10,6 +10,7 @@
   "repository": "https://github.com/seonwooj0810/devfolio-review",
   "license": "MIT",
   "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://github.com/seonwooj0810/devfolio-review/blob/main/PRIVACY.md",
   "keywords": [
     "portfolio",
     "backend",
