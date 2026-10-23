@@ -9,6 +9,7 @@
   "homepage": "https://github.com/seonwooj0810/devfolio-review#readme",
   "repository": "https://github.com/seonwooj0810/devfolio-review",
   "license": "MIT",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": [
     "portfolio",
     "backend",
